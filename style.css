@@ -1,3 +1,34 @@
 #root {
-  color: red;
+display : grid;
+grid-template-columns:2fr 2fr 2fr;
+grid-template-rows: auto ;
+background:whitesmoke ;
 }
+div{
+  display:flex;
+  flex-direction:column;
+  padding: 15px;
+  margin: 5px 10px 5px 10px;
+  background: white;
+}
+h5{
+  border: 2px solid;
+  border-radius: 5px;
+  background: white;
+  margin: 0 15px 0 15px;
+  padding: 15px;
+}
+image{
+  display: flex;
+  width: 20px;
+  padding-top: 15px;
+  margin-top: 5px;
+}
+.search-wrapper #search{
+width:150px;
+height:30px;
+border-radius: 5px;
+}
+
+
+
